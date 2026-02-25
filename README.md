@@ -24,8 +24,6 @@ Naming Conventions:
 ## The topology: 
 [Local VM (web-prod-01)] --(CW Agent)--> [Public Internet] --(IAM Credentials)--> [AWS CloudWatch Logs] --> [Metric Filter] --> [SNS] --> [SES Email]
 
-## Resume:
-Engineer a Hybrid-Cloud monitoring pipeline using AWS CloudWatch and SNS to provide real-time visibility for an on-premise self-healing Nginx cluster, reducing incident response time.
 
 ## My  Project Topology
 ![my-topology](/imagens_and_project_diagram/hybrid-cloud-observability-pipeline-topology.png)
