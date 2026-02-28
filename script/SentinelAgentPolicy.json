@@ -7,9 +7,10 @@
                 "logs:CreateLogGroup",
                 "logs:CreateLogStream",
                 "logs:PutLogEvents",
-                "logs:DescribeLogStreams"
+                "logs:DescribeLogStreams",
+                "logs:DescribeLogGroups"
             ],
-            "Resource": "arn:aws:logs:*:*:*"
+            "Resource": "arn:aws:logs:*:*:log-group:Sentinel-Monitoring-Group:*"
         }
     ]
 }
